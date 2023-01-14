@@ -1,0 +1,94 @@
+.content{
+    flex: 4;
+    padding: 14px;
+}
+.content h4{
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.featured{
+   display: flex;
+   align-items: center;
+   flex-direction: row  ;
+}
+.featuredinfo{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 6px 1px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 1px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px -0px rgba(0,0,0,0.75);
+  padding: 20px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+.featured-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.featured-icon{
+  font-size: 18px !important;
+  padding-right: 10px;
+}
+.featured-span{
+    font-weight: 700;
+}
+.featured-cost{
+  display: flex;
+  line-height: 40px;
+  flex-direction: column;
+}
+.featured-cost-info{
+  font-size: 24px;
+}
+.featured-input1 {
+ -webkit-appearance: none;
+  width: 250px;
+  height: 4px;
+  border-radius: 50px;
+  accent-color: rgb(17, 13, 249) ;
+  outline: none;
+  background: linear-gradient(90deg, rgb(17, 13, 249) 60%, #123 20% );
+  background-color:rgb(83, 82, 82);
+}
+.featured-input2 {
+    -webkit-appearance: none;
+     width: 250px;
+     height: 4px;
+     border-radius: 50px;
+     outline: none;
+     accent-color:  rgb(230, 162, 5);
+     background: linear-gradient(90deg, rgb(230, 162, 5) 40%, #123 20% );
+     background-color:rgb(83, 82, 82);
+   }
+
+   .featured-input3 {
+    -webkit-appearance: none;
+     width: 250px;
+     height: 4px;
+     border-radius: 50px;
+     outline: none;
+     accent-color: rgb(233, 7, 33) ;
+     background: linear-gradient(90deg, rgb(233, 7, 33) 80%, #123 20% );
+     background-color:rgb(83, 82, 82);
+   }
+
+   .featured-input4 {
+    -webkit-appearance: none;
+     width: 250px;
+     height: 4px;
+     border-radius: 50px;
+     accent-color:  rgb(4, 225, 129);
+     outline: none;
+     background: linear-gradient(90deg, rgb(4, 225, 129) 66%, #123 20% );
+     background-color:rgb(83, 82, 82);
+   }
+   
+
+
+.featured-desc-span{
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,0 +1,18 @@
+.topbar{
+    flex: 4;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(245, 243, 243);
+}
+.topbar-left{
+    padding: 10px 0 4px 20px;
+}
+.topbar-icon{
+    cursor: pointer;
+    font-size: 35px !important;
+}
+.topbar-right{
+    padding: 10px 20px 5px 0;
+}
