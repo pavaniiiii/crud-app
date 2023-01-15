@@ -20,9 +20,7 @@ export default function Sidebar() {
     <div className='sidebar'>
         <div className="sidebar-wrapper">
           <div className="sidebar-header">
-            <span className='sidebarspan'>OHO</span>
-             <span className='sidebarspan'>Beds</span>
-             <span className='sidebarspan1'>.com</span>
+           <hr style={{color:"red", height:"10px", marginTop:"50px" }}/>
           </div>
           <div className="sidebar-list">
             <ul className='sidebar-list-menu'>
